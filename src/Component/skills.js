@@ -1,17 +1,11 @@
 import { Box, Center, Image } from '@chakra-ui/react';
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import html from './image/html.png';
-import css from './image/css.png';
-import bootstrap from './image/bootstrap.png';
-import reactjs from './image/reactjs.png';
-import useformik from './image/useformik.png';
-import materialui from './image/materialui.png';
-import mongodb from './image/mongodb.png';
-import nodejs from './image/nodejs.png';
-import js from './image/js.png';
-import redux from './image/redux.png';
-import mysql from './image/mysql.png';
+import html from './image/c1.png';
+import html from './image/c2.png';
+import html from './image/c3.png';
+import html from './image/c4.png';
+
 
 
 
@@ -33,7 +27,7 @@ export default function skills() {
     <h5 className='text-light mx-5'>React <i class="fa-brands fa-react"></i></h5>
     <Progress className=' p-2 pl-5' percent={80} showInfo={false} />
     <h5 className='text-light mx-5'>Mongodb <i class="icon-mongodb"></i></h5>
-    <Progress className='p-2 pl-5' percent={75} showInfo={false} />
+    <Progress className=' p-2 pl-5' percent={75} showInfo={false} />
     <h5 className='text-light mx-5'>Node JS <i class="fa-brands fa-node-js"></i></h5>
     <Progress className=' p-2 pl-5' percent={65} showInfo={false} />
     <h5 className='text-light mx-5'>MySQL <i class="icon-mysql"></i></h5>
@@ -46,38 +40,18 @@ export default function skills() {
 
         <Carousel interval={1500} >
           <Carousel.Item>
-            <Image w={"50%"} h={"50vh"} src={html} alt="First slide" />
+            <Image w={"50%"} h={"50vh"} src={c1} alt="First slide" />
           </Carousel.Item>
           <Carousel.Item>
-            <Image w={"50%"} h={"50vh"} src={css} alt="Second slide" />
+            <Image w={"50%"} h={"50vh"} src={c2} alt="Second slide" />
           </Carousel.Item>
           <Carousel.Item>
-            <Image w={"50%"} h={"50vh"} src={bootstrap} alt="Third slide" />
+            <Image w={"50%"} h={"50vh"} src={c3} alt="Third slide" />
           </Carousel.Item>
           <Carousel.Item>
-            <Image w={"50%"} h={"50vh"} src={materialui} alt="fourth slide" />
+            <Image w={"50%"} h={"50vh"} src={c4} alt="fourth slide" />
           </Carousel.Item>
-          <Carousel.Item>
-            <Image w={"50%"} h={"50vh"} src={reactjs} alt="fivth slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <Image w={"50%"} h={"50vh"} src={useformik} alt="sixth slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <Image w={"50%"} h={"50vh"} src={mongodb} alt="seventh slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <Image w={"50%"} h={"50vh"} src={mysql} alt="eighth slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <Image w={"50%"} h={"50vh"} src={nodejs} alt="nineth slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <Image w={"50%"} h={"50vh"} src={js} alt="tenth slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <Image w={"50%"} h={"50vh"} src={redux} alt="eleventh slide" />
-          </Carousel.Item>
+
         </Carousel>
 
       </Box>
