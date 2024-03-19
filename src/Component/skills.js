@@ -1,10 +1,10 @@
 import { Box, Center, Image } from '@chakra-ui/react';
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import html from './image/c1.png';
-import html from './image/c2.png';
-import html from './image/c3.png';
-import html from './image/c4.png';
+import c1 from './image/c1.png';
+import c2 from './image/c2.png';
+import c3 from './image/c3.png';
+import c4 from './image/c4.png';
 
 
 
