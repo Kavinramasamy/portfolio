@@ -32,14 +32,10 @@ export default function skills() {
     <Progress className=' p-2 pl-5' percent={65} showInfo={false} />
     <h5 className='text-light mx-5'>MySQL <i class="icon-mysql"></i></h5>
     <Progress className=' p-1 pl-5' percent={60} showInfo={false} />
-    
- 
-    
-  </div> */}
+    </div> */}
       <Box bg={"black"}>
-
-        <Carousel interval={1500} >
-          <Carousel.Item>
+        <Carousel interval={1500} p='5' >
+          <Carousel.Item >
             <Image w={"50%"} h={"50vh"} src={c1} alt="First slide" />
           </Carousel.Item>
           <Carousel.Item>
@@ -51,9 +47,7 @@ export default function skills() {
           <Carousel.Item>
             <Image w={"50%"} h={"50vh"} src={c4} alt="fourth slide" />
           </Carousel.Item>
-
         </Carousel>
-
       </Box>
 
 
